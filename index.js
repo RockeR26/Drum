@@ -66,6 +66,6 @@ function anime(buttonconfig){
         selector.classList.add("pressed");
         setInterval(function () {
             document.querySelector ("."+buttonconfig).classList.remove("pressed");
-        },100);
+        },50);
     }
 }
